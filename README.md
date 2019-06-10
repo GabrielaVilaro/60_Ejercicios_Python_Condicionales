@@ -1,5 +1,5 @@
-# Ejercicios-En-Python-III
-20 ejercicios simples de toma de decisiones en Python, parte de la carrera tecnicatura superior en analisis de sistemas, materia programación I./20 simple decision-making exercises in Python, part of the higher technical career in systems analysis, programming subject I. 
+# Ejercicios-En-Python-
+60 ejercicios simples de toma de decisiones en Python, parte de la carrera tecnicatura superior en analisis de sistemas, materia programación I./20 simple decision-making exercises in Python, part of the higher technical career in systems analysis, programming subject I. 
 
 41. Se ingresan 4 calificaciones de un alumno, informar el promedio de las 3 peores.
 42. Ingresar las edades y la estatura de tres alumnos de un curso de primer año de la Tecnicatura Superior
