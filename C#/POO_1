@@ -1,0 +1,26 @@
+using System;
+
+namespace POO
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Circulo miCirculo; //variable - objeto de tipo cìrculo
+
+            miCirculo = new Circulo(); //Iniciaciòn de variable objeto de tipo cìrculo - instanciar
+
+            Console.WriteLine(miCirculo.calculoArea(5));
+        }
+    } 
+
+    class Circulo
+    {
+        double PI = 3.1416; //propiedad de la clase circulo. Campo de clase
+
+        public double calculoArea (int radio) //mètodo de la clase, lo que puede hacer
+        {
+            return PI * radio * radio;
+        }
+    }
+}

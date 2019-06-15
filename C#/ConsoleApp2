@@ -1,0 +1,21 @@
+namespace ConsoleApp2 //Tipos de datos//
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double decimales = 2.4;
+            int num = 14;
+            string nombre = "Gabi";
+            String nombres = "Gabriela Belén";
+            decimal decimals = 2.05M;
+            float flotante = 8.0F;
+            bool valor = true;
+            char letra = 'A'; //un solo caracter
+            Console.WriteLine(nombres + "{0} {1} {2}", num, decimales, nombre + decimals + flotante);
+        }
+    }
+}
+//float almacena 7 dígitos de 32 bits
+//double almacenna 15-16 dígitos de 64 bits
+//decimal almacena 28-29 dígitos de 128 bits

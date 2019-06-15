@@ -1,0 +1,21 @@
+using System;
+
+namespace ConsoleApp6
+{
+    class Program
+    {
+        static void Main(string[] args)
+
+        {
+            const double PI = 3.1416;
+
+            Console.WriteLine("Ingrese la medida del radio: ");
+
+            double radio = double.Parse(Console.ReadLine());
+
+            double area = Math.Pow(radio, 2) * PI; //método pow
+
+            Console.WriteLine("El área del círculo es:{0} ", area);
+        }
+    }
+}

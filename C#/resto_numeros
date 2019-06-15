@@ -1,0 +1,24 @@
+using System;
+
+namespace ConsoleApp11
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Imprime el resto entre dos números.");
+            Console.WriteLine("Ingrese el primer número: ");
+            int num1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Ingrese el segundo número: ");
+            int num2 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(restoNumeros(num1, num2));
+
+        }
+        static int restoNumeros(int num1, int num2)
+        {
+            return num1 % num2;
+        }
+    }
+}

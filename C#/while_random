@@ -1,0 +1,33 @@
+using System;
+
+namespace ConsoleApp13
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Random numero = new Random(); //número aleatorio
+
+            int aleatorio = numero.Next(0, 100); //entre 0 y 100
+
+            int miNumero = 101;
+
+            int intentos = 0;
+
+            Console.WriteLine("Ingrese un nùmero entre 0 y 100: ");
+
+            while (aleatorio != miNumero)
+            {
+                intentos++;
+
+                miNumero = int.Parse(Console.ReadLine());
+
+                if (miNumero > aleatorio) Console.WriteLine("Debes ingresar un nùmero menor!");
+
+                if (miNumero < aleatorio) Console.WriteLine("Debes ingresar un nùmero mayor!");
+            }
+
+            Console.WriteLine("Correcto! y solo te ha costado" + intentos + "intentos");
+        }
+    }
+}

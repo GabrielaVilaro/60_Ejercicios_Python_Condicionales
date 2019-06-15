@@ -1,0 +1,22 @@
+using System;
+
+namespace Metodos
+{
+    class Program //empiezo con métodos (funciones)
+    {
+        static void Main(string[] args)
+        {
+            mensajeEnPantalla();
+
+            mensajeEnPantalla(); //lo llamo las veces que necesite
+        }
+
+        static void mensajeEnPantalla()
+        {
+
+            Console.WriteLine("Hola! Este mensaje viene del método MensajeEnPantalla!!");
+
+        }
+
+    }
+}

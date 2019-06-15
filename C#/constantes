@@ -1,0 +1,17 @@
+using System;
+
+namespace ConsoleApp4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+            const int VALOR = 5; //constante en mayúscula por convención
+
+            const int VALOR2 = 7;
+
+            Console.WriteLine("El valor de las constantes es: {0} {1}", VALOR, VALOR2); //Muestra el valor 0 del array: VALOR
+        }
+    }
+}

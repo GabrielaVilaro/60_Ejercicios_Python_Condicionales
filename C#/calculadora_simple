@@ -1,0 +1,50 @@
+using System;
+
+namespace ConsoleApp9
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Introduce el primer número: ");
+            int num1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Introduce el segundo número: ");
+            int num2 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(sumaNumeros(num1, num2));
+            Console.WriteLine(restaNumeros(num1, num2));
+            Console.WriteLine(multiplicaNumeros(num1, num2));
+            Console.WriteLine(divideNumeros(num1, num2));
+
+        }
+
+         static int sumaNumeros(int num1, int num2)
+        {
+            Console.WriteLine("La suma es: ");
+            return num1 + num2;
+
+        }
+
+        static int restaNumeros(int num1, int num2)
+        {
+            Console.WriteLine("La resta es: ");
+            return num1 - num2;
+
+        }
+
+        static int multiplicaNumeros(int num1, int num2)
+        {
+            Console.WriteLine("La multiplicación es: ");
+            return num1 * num2;
+
+        }
+
+        static int divideNumeros(int num1, int num2)
+        {
+            Console.WriteLine("La división es: ");
+            return num1 / num2;
+
+        }
+    }       
+    }

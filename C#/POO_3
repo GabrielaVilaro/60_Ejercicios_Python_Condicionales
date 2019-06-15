@@ -1,0 +1,46 @@
+using System;
+
+namespace ConsoleApp17
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Coche coche1 = new Coche(); //instanciar la clase coche
+
+            Coche coche2 = new Coche();
+
+            Console.WriteLine(coche2.getInfoCoche());
+            
+        }
+
+        class Coche
+        {
+            public Coche() //constructor, dar estado inicial
+            {
+                ruedas = 4;
+
+                largo = 2300.5;
+
+                ancho = 0.800;
+            }
+
+            public string getInfoCoche()
+            {
+                return "Información del coche: " + ruedas + " " + largo + " " + ancho;
+            }
+
+            private int ruedas;
+
+            private double largo;
+
+            private double ancho;
+
+            private bool climatizador;
+
+            private string tapiceria;
+
+        }
+    }
+}

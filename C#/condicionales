@@ -1,0 +1,21 @@
+using System;
+
+namespace ConsoleApp10
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Ingrese su edad: ");
+            int edad = int.Parse(Console.ReadLine());
+            if (edad >= 18)
+            {
+                Console.WriteLine("Adelante! Sos mayor de edad.");
+            }
+            else
+            {
+                Console.WriteLine("Lo siento, no puedes continuar.");
+            };
+        }
+    }
+}

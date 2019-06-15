@@ -1,0 +1,31 @@
+using System;
+
+namespace ConsoleApp12
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("¿Querés entrar en el bucle while?");
+
+            string respuesta = Console.ReadLine();
+
+            while (respuesta != "no")
+            {
+                Console.WriteLine("Ingresaste al bucle!");
+
+                Console.WriteLine("Ahora tendrás que dedcirme tu nombre: ");
+
+                string nombre = Console.ReadLine();
+
+                Console.WriteLine("Vas a salir del bucle cuando respondas 'no' " + nombre);
+
+                Console.WriteLine("¿Cuál es tu decisión?: ");
+
+                respuesta = Console.ReadLine();
+            }
+
+            Console.WriteLine("Saliste del bucle!");
+        }
+    }
+}

@@ -1,0 +1,15 @@
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int year = 10;
+            Console.WriteLine("Hello World! " + year);
+
+            Console.ReadLine();
+        }
+    }
+}
